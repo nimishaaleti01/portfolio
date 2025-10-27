@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaJava, FaGithub, FaLinkedin, FaEnvelope, FaExternalLinkAlt, FaChevronDown, FaChevronUp, FaAws } from 'react-icons/fa';
-import { SiSpring, SiDocker, SiKubernetes, SiGraphql, SiAmazondynamodb, SiMongodb, SiMysql, SiPostgresql, SiJenkins, SiMaven, SiLinux, SiPython, SiGit } from 'react-icons/si';
+import { SiSpring, SiDocker, SiKubernetes, SiGraphql, SiAmazondynamodb, SiMongodb, SiMysql, SiPostgresql, SiJenkins, SiApachemaven, SiLinux, SiPython, SiGit } from 'react-icons/si';
 
 // --- Data filled from resume ---
 const portfolioData = {
@@ -30,7 +30,7 @@ const portfolioData = {
     { name: "Kubernetes", icon: <SiKubernetes /> },
     { name: "Linux", icon: <SiLinux /> },
     { name: "Jenkins", icon: <SiJenkins /> },
-    { name: "Maven", icon: <SiMaven /> },
+    { name: "Maven", icon: <SiApachemaven /> },
     { name: "Git", icon: <SiGit /> },
     { name: "Python (ML integration)", icon: <SiPython /> },
   ],
